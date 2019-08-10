@@ -5,21 +5,21 @@
 */
 #include "LightSyntax.h"
 #include "Arduino.h"
-void LightSyntax::input(int Pin) {
+void input(int Pin) {
 	pinMode(Pin, INPUT);
 }
-void LightSyntax::output(int Pin) {
+void output(int Pin) {
 	pinMode(Pin, OUTPUT);
 }
-void LightSyntax::Dhigh(int Pin) {
+void Dhigh(int Pin) {
 	digitalWrite(Pin, HIGH);
 }
-void LightSyntax::Ahigh(int Pin) {
+void Ahigh(int Pin) {
 	analogWrite(Pin, HIGH);
 }
-void LightSyntax::Alow(int Pin) {
+void Alow(int Pin) {
 	analogWrite(Pin, LOW);
 }
-void LightSyntax::Dlow(int Pin) {
+void Dlow(int Pin) {
 	digitalWrite(Pin, LOW);
 }
