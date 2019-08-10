@@ -1,7 +1,7 @@
 /*
 * LightSyntax
 * (C) 2019 NickProgramm
-* https://github.com/NickProgramm/LightSyntax
+* https://nickprogramm.github.io/LightSyntax/
 */
 #include "Arduino.h"
 void input(int Pin);
