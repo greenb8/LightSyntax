@@ -1,10 +1,13 @@
 /*
 * LightSyntax
 * (C) 2019 NickProgramm
-* https://nickprogramm.github.io/LightSyntax/
+* https://github.com/NickProgramm/LightSyntax
 */
 #include "LightSyntax.h"
 #include "Arduino.h"
+void read(int Pin) {
+	digitalRead(Pin);
+}
 void input(int Pin) {
 	pinMode(Pin, INPUT);
 }

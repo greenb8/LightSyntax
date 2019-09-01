@@ -1,12 +1,14 @@
-#######################################
-# Syntax Coloring Map For LightSyntax
-#######################################
-# Methods and Functions (KEYWORD2)
-#######################################
-
 Dlow	KEYWORD2
+
 Alow	KEYWORD2
+
 input	KEYWORD2
+
 output	KEYWORD2
+
 Dhigh	KEYWORD2
+
 Ahigh	KEYWORD2
+read	KEYWORD2
+LightSyntax	KEYWORD2
+print	KEYWORD2
