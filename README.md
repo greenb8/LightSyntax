@@ -9,6 +9,7 @@
 ```
 ![Arduino IDE](https://NickProgramm.github.io/LightSyntax/arduno.svg)
 ![Arduino IDE](https://NickProgramm.github.io/LightSyntax/c++.svg)
+![Arduino IDE](https://NickProgramm.github.io/LightSyntax/espruino.svg)
 
 # Install(Arduino)
 1. Clone this repository
