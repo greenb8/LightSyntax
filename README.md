@@ -31,5 +31,5 @@ C:\Users\<username>\> git clone https://github.com/NickProgramm/LightSyntax.git
 3. Drag the LightSyntax.js file into the modules folder
 
 # Install(XOD)
-Click the "Add Library" button and type: @ nickprogramm/lightsyntax, then click on the result.
+Click the "Add Library" button and type: @nickprogramm/lightsyntax, then click on the result.
 Download will begin, which indicates a successful installation!
