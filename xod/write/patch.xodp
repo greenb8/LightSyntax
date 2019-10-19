@@ -1,0 +1,58 @@
+{
+  "description": "Write a value",
+  "links": [
+    {
+      "id": "HJsLQDqIS",
+      "input": {
+        "nodeId": "SkxLXD5IB",
+        "pinKey": "rJjXFA9JQ"
+      },
+      "output": {
+        "nodeId": "Bk_8mDq8r",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "ryKDXD5LH",
+      "input": {
+        "nodeId": "SkxLXD5IB",
+        "pinKey": "HJ6HsEngZ"
+      },
+      "output": {
+        "nodeId": "Sk8vQwqLr",
+        "pinKey": "__out__"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "Bk_8mDq8r",
+      "label": "port",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-port"
+    },
+    {
+      "id": "Sk8vQwqLr",
+      "label": "value",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "id": "SkxLXD5IB",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 1
+      },
+      "type": "xod/gpio/digital-write"
+    }
+  ]
+}

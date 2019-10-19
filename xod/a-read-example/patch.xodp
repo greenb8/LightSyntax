@@ -1,0 +1,35 @@
+{
+  "links": [
+    {
+      "id": "By0OjuqUS",
+      "input": {
+        "nodeId": "rycujuqLS",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "BkmOs_cLS",
+        "pinKey": "BkaNjuq8S"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "BkmOs_cLS",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 1
+      },
+      "type": "@/a-read"
+    },
+    {
+      "id": "rycujuqLS",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 2
+      },
+      "type": "xod/debug/watch"
+    }
+  ]
+}

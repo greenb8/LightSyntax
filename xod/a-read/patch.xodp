@@ -1,0 +1,60 @@
+{
+  "links": [
+    {
+      "id": "Sy6mj_qUH",
+      "input": {
+        "nodeId": "BJ6Gs_5Lr",
+        "pinKey": "SkuhqCqym"
+      },
+      "output": {
+        "nodeId": "HkqmsOqLB",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "rkZBiO9LB",
+      "input": {
+        "nodeId": "BkaNjuq8S",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "BJ6Gs_5Lr",
+        "pinKey": "SyBtREhlW"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "BJ6Gs_5Lr",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 1
+      },
+      "type": "xod/gpio/analog-read"
+    },
+    {
+      "id": "BkaNjuq8S",
+      "label": "Value",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "A0"
+      },
+      "id": "HkqmsOqLB",
+      "label": "Port",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-port"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "comments": [
+    {
+      "content": "Connect the LED in port 9",
+      "id": "r1g68OqLH",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 0
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 5
+      }
+    }
+  ],
+  "description": "Testing `write` node",
+  "nodes": [
+    {
+      "boundLiterals": {
+        "Bk_8mDq8r": "D9",
+        "Sk8vQwqLr": "True"
+      },
+      "id": "HJ24S_cLr",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "@/write"
+    }
+  ]
+}

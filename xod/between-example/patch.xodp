@@ -1,0 +1,60 @@
+{
+  "comments": [
+    {
+      "content": "Connect the LED in port 9",
+      "id": "Hk9XK_qUH",
+      "position": {
+        "units": "slots",
+        "x": 12,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 5
+      }
+    }
+  ],
+  "description": "Testing `between` node",
+  "links": [
+    {
+      "id": "rkqGKucLB",
+      "input": {
+        "nodeId": "By4GYd9LB",
+        "pinKey": "HyYh1a3LZ"
+      },
+      "output": {
+        "nodeId": "ry7sD_5IB",
+        "pinKey": "S1irHvqLS"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "boundLiterals": {
+        "B1oqkTnIb": "D9"
+      },
+      "id": "By4GYd9LB",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 4
+      },
+      "type": "xod/common-hardware/led"
+    },
+    {
+      "boundLiterals": {
+        "SkLbSP9LH": "3",
+        "rkFEHvqUH": "5",
+        "rkYGSPc8S": "1"
+      },
+      "id": "ry7sD_5IB",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 3
+      },
+      "type": "@/between"
+    }
+  ]
+}

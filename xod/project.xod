@@ -1,0 +1,6 @@
+{
+  "description": "LightSyntax library for XOD(https://nickprogramm.github.io/LightSyntax)",
+  "license": "GPL",
+  "name": "lightsyntax",
+  "version": "1.0.0"
+}

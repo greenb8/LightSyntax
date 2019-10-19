@@ -1,0 +1,61 @@
+{
+  "description": "Read value",
+  "links": [
+    {
+      "id": "H1s-ZD9IH",
+      "input": {
+        "nodeId": "S1uk-P98S",
+        "pinKey": "B143qAq1Q"
+      },
+      "output": {
+        "nodeId": "ryvZ-wcUS",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "rkVYq_qLS",
+      "input": {
+        "nodeId": "S1Ztq_cLS",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "S1uk-P98S",
+        "pinKey": "B1gI0urv1W"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "S1Ztq_cLS",
+      "label": "value",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "id": "S1uk-P98S",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 1
+      },
+      "type": "xod/gpio/digital-read"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "A0"
+      },
+      "id": "ryvZ-wcUS",
+      "label": "port",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-port"
+    }
+  ]
+}

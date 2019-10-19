@@ -1,0 +1,151 @@
+{
+  "links": [
+    {
+      "id": "B1JIBv9UB",
+      "input": {
+        "nodeId": "S1irHvqLS",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "H1EySwcUr",
+        "pinKey": "rJqfIRdHwkW"
+      }
+    },
+    {
+      "id": "BybHSvqIH",
+      "input": {
+        "nodeId": "BkhA4w9IB",
+        "pinKey": "HJbACN3gb"
+      },
+      "output": {
+        "nodeId": "rkFEHvqUH",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "H1RyrD5IS",
+      "input": {
+        "nodeId": "H1EySwcUr",
+        "pinKey": "S1dG8AOBPJW"
+      },
+      "output": {
+        "nodeId": "BkhA4w9IB",
+        "pinKey": "B19RYS3lW"
+      }
+    },
+    {
+      "id": "HJ3krD5US",
+      "input": {
+        "nodeId": "H1EySwcUr",
+        "pinKey": "r1tz8CdBDkb"
+      },
+      "output": {
+        "nodeId": "BkfAVv58S",
+        "pinKey": "HktZUCdrPkZ"
+      }
+    },
+    {
+      "id": "SkCZBPcLH",
+      "input": {
+        "nodeId": "BkfAVv58S",
+        "pinKey": "HJjZLRdBw1-"
+      },
+      "output": {
+        "nodeId": "SkLbSP9LH",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "SkgMBwcLS",
+      "input": {
+        "nodeId": "BkhA4w9IB",
+        "pinKey": "rJg00Nhe-"
+      },
+      "output": {
+        "nodeId": "SkLbSP9LH",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "rk4mSP5US",
+      "input": {
+        "nodeId": "BkfAVv58S",
+        "pinKey": "SJqZ8COrDkW"
+      },
+      "output": {
+        "nodeId": "rkYGSPc8S",
+        "pinKey": "__out__"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "BkfAVv58S",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 1
+      },
+      "type": "xod/core/less"
+    },
+    {
+      "id": "BkhA4w9IB",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 1
+      },
+      "type": "xod/core/greater"
+    },
+    {
+      "id": "H1EySwcUr",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 2
+      },
+      "type": "xod/core/nor"
+    },
+    {
+      "description": "Checks whether `X`  is range [MIN, MAX]",
+      "id": "S1irHvqLS",
+      "label": "boolean",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/output-boolean"
+    },
+    {
+      "id": "SkLbSP9LH",
+      "label": "X",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "id": "rkFEHvqUH",
+      "label": "max",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "id": "rkYGSPc8S",
+      "label": "min",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    }
+  ]
+}
