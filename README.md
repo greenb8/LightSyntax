@@ -7,10 +7,10 @@
 |_____|___|  _|_| |___|_|_|_|___|
           |_|      
 ```
-![Arduino IDE => 1.8.9](https://NickProgramm.github.io/LightSyntax/arduno.svg)
+[![Arduino IDE => 1.8.9](https://NickProgramm.github.io/LightSyntax/arduno.svg)](https://create.arduino.cc/editor "Arduino IDE")
 ![C++ 11](https://NickProgramm.github.io/LightSyntax/c++.svg)
-![Espruino IDE => 0.71.3](https://NickProgramm.github.io/LightSyntax/espruino.svg)
-![XOD IDE => 0.31.1](https://nickprogramm.github.io/LightSyntax/XOD.svg)
+[![Espruino IDE => 0.71.3](https://NickProgramm.github.io/LightSyntax/espruino.svg)](https://www.espruino.com/ide/ "Espruino IDE")
+[![XOD IDE => 0.31.1](https://nickprogramm.github.io/LightSyntax/XOD.svg)](https://xod.io/ide/?skip=1 "XOD IDE")
 
 # Install(Arduino)
 1. Clone this repository
