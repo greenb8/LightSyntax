@@ -10,7 +10,7 @@
 ![Arduino IDE => 1.8.9](https://NickProgramm.github.io/LightSyntax/arduno.svg)
 ![C++ 11](https://NickProgramm.github.io/LightSyntax/c++.svg)
 ![Espruino IDE => 0.71.3](https://NickProgramm.github.io/LightSyntax/espruino.svg)
-![XOD IDE => 0.31.1](https://NickProgramm.github.io/LightSyntax/XOD.svg)
+![XOD IDE => 0.31.1](https://nickprogramm.github.io/LightSyntax/XOD.svg)
 
 # Install(Arduino)
 1. Clone this repository
