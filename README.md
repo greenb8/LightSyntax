@@ -29,7 +29,7 @@ C:\Users\<username>\> git clone https://github.com/NickProgramm/LightSyntax.git
 ```
 2. Open the folder that you specified in the IDE settings
 3. Drag the LightSyntax.js file into the modules folder
-
+4. Click [this](http://espruino.com/webide?code=var%20syn%20=%20require(%27LightSyntax%27);)
 # Install(XOD)
 Click the "Add Library" button and type: @nickprogramm/lightsyntax, then click on the result.
 Download will begin, which indicates a successful installation!
